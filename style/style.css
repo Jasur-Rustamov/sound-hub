@@ -1,0 +1,519 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/png/bgb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Zen Kurenaido';
+}
+
+.header {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.nav {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_left ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav_left ul li {
+    list-style: none;
+}
+
+.nav_left ul li a {
+    text-decoration: none;
+    color: white;
+    opacity: 70%;
+}
+
+.nav_left ul li a:hover {
+    opacity: 100%;
+}
+
+.nav_right {
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 23px;
+}
+
+.nav_right i {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.nav_right i:hover {
+    opacity: 100%;
+}
+
+.hero {
+    max-width: 1440px;
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.hero p {
+    text-align: center;
+    color: white;
+    font-size: 52px;
+    font-family: 'Bilbo';
+    opacity: 70%;
+    margin-top: 100px;
+}
+
+.hero h1 {
+    text-align: center;
+    color: white;
+    font-size: 82px;
+    font-family: 'Bilbo';
+    text-transform: uppercase;
+    opacity: 70%;
+}
+
+.hero img {
+    width: 750px;
+    margin-left: 225px;
+    mix-blend-mode: color-burn;
+}
+
+.section_media {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.boxxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.media h2 {
+    text-align: center;
+    color: white;
+    font-size: 52px;
+    text-transform: uppercase;
+    opacity: 80%;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+
+
+
+.custom-audio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: none;
+    /* Qora fon */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#play-pause {
+    background-color: #33333356;
+    /* Qoraga yaqin kulrang */
+    color: #fff;
+    /* Oq matn */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#play-pause:hover {
+    background-color: #33333356;
+    /* Oqilroq hover efekti uchun ochroq qora */
+}
+
+#progress {
+    -webkit-appearance: none;
+    /* Brauzer default uslubini olib tashlash */
+    width: 200px;
+    height: 5px;
+    background-color: #3333332c;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+#progress::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+
+#play-pause1 {
+    background-color: #33333356;
+    /* Qoraga yaqin kulrang */
+    color: #fff;
+    /* Oq matn */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#play-pause1:hover {
+    background-color: #33333356;
+    /* Oqilroq hover efekti uchun ochroq qora */
+}
+
+#progress1 {
+    -webkit-appearance: none;
+    /* Brauzer default uslubini olib tashlash */
+    width: 40px;
+    height: 5px;
+    background-color: #3333332c;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+#progress1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+#progress1::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+#play-pause2 {
+    background-color: #333333a2;
+    /* Qoraga yaqin kulrang */
+    color: #fff;
+    /* Oq matn */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#play-pause2:hover {
+    background-color: #333333a2;
+    /* Oqilroq hover efekti uchun ochroq qora */
+}
+
+#progress2 {
+    -webkit-appearance: none;
+    /* Brauzer default uslubini olib tashlash */
+    width: 140px;
+    height: 5px;
+    background-color: #3333332c;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+#progress2::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+#progress2::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+#play-pause3 {
+    background-color: #33333356;
+    /* Qoraga yaqin kulrang */
+    color: #fff;
+    /* Oq matn */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#play-pause3:hover {
+    background-color: #33333356;
+    /* Oqilroq hover efekti uchun ochroq qora */
+}
+
+#progress3 {
+    -webkit-appearance: none;
+    /* Brauzer default uslubini olib tashlash */
+    width: 200px;
+    height: 5px;
+    background-color: #3333332c;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+#progress3::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+#progress3::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.box_1 {
+    width: 500px;
+    height: 500px;
+    color: white;
+    position: relative;
+}
+
+.box_1 img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+}
+
+.box_1 .box_text {
+    position: absolute;
+}
+
+.boxx_p {
+    padding: 20px 0 0 40px;
+    margin-bottom: 290px;
+}
+
+.boxx_p p {
+    font-size: 20px;
+}
+
+
+.boxx_item {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    padding-top: 20px;
+}
+
+.box_info {
+    width: 500px;
+    padding: 0px 40px;
+}
+
+.box_music {
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_info h2 {
+    font-size: 40px;
+    text-align: left;
+}
+
+
+.new{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 200px;
+}
+
+
+.new_head{
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.new_head h2{
+    color: white;
+    padding: 30px 0;
+    font-size: 42px;
+    text-transform: uppercase;
+    opacity: 80%;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.new_music{
+    width: 100%;
+    background-image: url(../img/jpg/macan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+
+.audio-player_new {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.time {
+    font-size: 16px;
+    min-width: 40px;
+    text-align: center;
+}
+
+#progress-bar_new {
+    flex-grow: 1;
+    appearance: none;
+    height: 4px;
+    background: #444;
+    outline: none;
+    cursor: pointer;
+    width: 1000px;
+}
+
+#progress-bar_new::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+.audio-player_new button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.audio-player_new button:hover {
+    color: #1e90ff;
+}
+
+
+
+
+footer {
+    max-width: 1440px;
+    width: 100%;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+}
+.footer_head{
+    width: 600px;
+    margin: 0 auto;
+}
+.footer_head h2{
+    font-size: 22px;
+    opacity: 80%;
+}
+.footer_icons{
+    font-size: 26px;
+    margin-top: 200px;
+}
+.footer_icons i{
+    cursor: pointer;
+    padding: 0 5px;
+}
+footer p{
+   cursor: pointer;
+   padding-top: 10px;
+}

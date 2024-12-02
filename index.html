@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Hub</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="./img/jpg/icon.jpg" type="image/x-icon">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="nav_left">
+                    <ul>
+                        <li><a href="#">ГЛАВНАЯ</a></li>
+                        <li><a href="#media">МЕДИА</a></li>
+                        <li><a href="#new">НОВОСТИ</a></li>
+                        <li><a href="#footer">КОНТАКТЫ</a></li>
+                    </ul>
+                </div>
+                <div class="nav_right">
+                    <i class="fa-brands fa-vk"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <p>The</p>
+            <h1>Sound Hub</h1>
+            <img src="./img/png/unnamed.png" alt="error">
+        </div>
+    </div>
+
+    <div class="section_media">
+        <div class="container">
+            <div class="media" id="media">
+                <h2>МЕДИА</h2>
+                <div class="boxxes">
+                    <div class="box_1">
+                        <img src="./img/png/macan_bg.jpg" alt="error">
+                        <div class="box_text">
+                            <div class="boxx_p">
+                                <p>TSM</p>
+                                <p style="font-size: 16px;">Jan 26, 2024</p>
+                            </div>
+                            <div class="box_info">
+                                <div class="box_music">
+                                    <h2>MACAN</h2>
+                                    <div class="custom-audio">
+                                        <button id="play-pause"><i class="fa-solid fa-play"></i></button>
+                                        <input type="range" id="progress" value="0" step="1" min="0" max="100">
+                                        <audio id="audio" src="./music/tsm.mp3"></audio>
+                                    </div>
+
+                                </div>
+                                <div class="boxx_item">
+                                    <div style="display: flex; gap: 25px; align-items:center; justify-content: center;">
+                                        <span
+                                            style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <p style="padding-left: 5px;">158</p>
+                                        </span>
+                                        <span
+                                            style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                            <i class="fa-regular fa-message"></i>
+                                            <p style="padding-left: 5px;">50</p>
+                                        </span>
+                                    </div>
+                                    <span
+                                        style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                        <i class="fa-regular fa-heart" style="color: orange;"></i>
+                                        <p style="padding-left: 5px;">78</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_1">
+                        <img src="./img/jpg/misha.jpg" alt="error">
+                        <div class="box_text">
+                            <div class="boxx_p">
+                                <p>В экстазе</p>
+                                <p style="font-size: 16px;">Aug 15, 2022</p>
+                            </div>
+                            <div class="box_info">
+                                <div class="box_music">
+                                    <h2>Misha Xramovi</h2>
+                                    <div class="custom-audio">
+                                        <button id="play-pause1"><i class="fa-solid fa-play"></i> </button>
+                                        <input type="range" id="progress1" value="0" step="1" min="0" max="100">
+                                        <audio id="audio1" src="./music/misha.mp3"></audio>
+                                    </div>
+
+                                </div>
+                                <div class="boxx_item">
+                                    <div style="display: flex; gap: 25px; align-items:center; justify-content: center;">
+                                        <span
+                                            style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <p style="padding-left: 5px;">96</p>
+                                        </span>
+                                        <span
+                                            style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                            <i class="fa-regular fa-message"></i>
+                                            <p style="padding-left: 5px;">28</p>
+                                        </span>
+                                    </div>
+                                    <span
+                                        style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                        <i class="fa-regular fa-heart" style="color: orange;"></i>
+                                        <p style="padding-left: 5px;">54</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_1">
+                        <img src="./img/jpg/dom.jpg" alt="error">
+                        <div class="box_text">
+                            <div class="boxx_p">
+                                <p>Дом</p>
+                                <p style="font-size: 16px;">Jan 1, 2017</p>
+                            </div>
+                            <div class="box_info">
+                                <div class="box_music">
+                                    <h2>Гои Пика</h2>
+                                    <div class="custom-audio">
+                                        <button id="play-pause2"><i class="fa-solid fa-play"></i> </button>
+                                        <input type="range" id="progress2" value="0" step="1" min="0" max="100">
+                                        <audio id="audio2" src="./music/dom.mp3"></audio>
+                                    </div>
+
+                                </div>
+                                <div class="boxx_item">
+                                    <div style="display: flex; gap: 25px; align-items:center; justify-content: center;">
+                                        <span
+                                            style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <p style="padding-left: 5px;">159</p>
+                                        </span>
+                                        <span
+                                            style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                            <i class="fa-regular fa-message"></i>
+                                            <p style="padding-left: 5px;">98</p>
+                                        </span>
+                                    </div>
+                                    <span
+                                        style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                        <i class="fa-regular fa-heart" style="color: orange;"></i>
+                                        <p style="padding-left: 5px;">125</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_1">
+                        <img src="./img/jpg/unik.jpg" alt="error">
+                        <div class="box_text">
+                            <div class="boxx_p">
+                                <p>Гонк-Конг</p>
+                                <p style="font-size: 16px;">Sep 30, 2021</p>
+                            </div>
+                            <div class="box_info">
+                                <div class="box_music">
+                                    <h2>Unik</h2>
+                                    <div class="custom-audio">
+                                        <button id="play-pause3"><i class="fa-solid fa-play"></i> </button>
+                                        <input type="range" id="progress3" value="0" step="1" min="0" max="100">
+                                        <audio id="audio3" src="./music/unik.mp3"></audio>
+                                    </div>
+
+                                </div>
+                                <div class="boxx_item">
+                                    <div style="display: flex; gap: 25px; align-items:center; justify-content: center;">
+                                        <span
+                                            style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <p style="padding-left: 5px;">119</p>
+                                        </span>
+                                        <span
+                                            style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                            <i class="fa-regular fa-message"></i>
+                                            <p style="padding-left: 5px;">28</p>
+                                        </span>
+                                    </div>
+                                    <span
+                                        style="cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 5px;">
+                                        <i class="fa-regular fa-heart" style="color: orange;"></i>
+                                        <p style="padding-left: 5px;">85</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="new">
+        <div class="container">
+            <div class="new_head" id="new">
+                <img src="./img/jpg/icon.jpg" width="100" alt="error">
+                <h2>Новый альбом: MACAN (БРАТ)</h2>
+            </div>
+            <div class="new_music">
+                <div class="audio-player_new">
+                    <div class="controls">
+                        <button id="prev-btn">⏮</button>
+                        <button id="play-btn">▶</button>
+                        <button id="next-btn">⏭</button>
+                    </div>
+                    <div style="display: flex; justify-content: center; align-items: center;">
+                        <span class="time" id="current-time_new">00:00</span>
+                        <input type="range" id="progress-bar_new" value="0" max="100">
+                        <span class="time" id="duration">01:36</span>
+                    </div>
+
+                </div>
+                <audio id="audio_new" src="./music/macan.mp3"></audio>
+            </div>
+
+
+            
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer_head" id="footer">
+                <img src="./img/jpg/icon.jpg" width="100" alt="error">
+                <h2>Подпишитесь на новости и получайте даты конерто, бессплатные билеты и многое другое!</h2>
+            </div>
+            <div class="footer_icons">
+                <i class="fa-brands fa-vk"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <p>© 2035 The Sound Hub. </p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
